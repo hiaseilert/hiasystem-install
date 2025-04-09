@@ -1,0 +1,33 @@
+{
+	"install":
+	{
+		"packagediskription":	"hiasystem / install",
+		"dependencies":
+		[
+			"jq"
+		],
+		"directory":	"/tmp/opt/hiasystem/install",
+		"owner":	"root",
+		"group":	"root",
+		"mod":	"644",
+		"files":
+		[
+			{
+				"source": "install.sh",
+				"destination": "",
+				"owner": "",
+				"group": "",
+				"mod":"755",
+				"ignore": 0
+			},
+			{
+				"source": "default.install.json",
+				"ignore": 0
+			},
+			{
+				"source": "install.json",
+				"ignore": 0
+			}
+		]
+	}
+}
