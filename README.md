@@ -1,7 +1,6 @@
 # hiasystem-install
 Installation script for my Arch Linux stuff.
 
-
 # Instalation
 mkdir -pv /tmp/install && cd /tmp/install
 ## Zeug hier hin kopieren
@@ -12,4 +11,3 @@ cp default.install.json install.json && vim -d /opt/hiasystem/config/install.jso
 cd ~ && ln -s /opt/hiasystem/config/bashrc .bashrc
 cd ~ && ln -s /opt/hiasystem/config/vimrc .vimrc
 cd ~ && ln -s /opt/hiasystem/config/zshrc.local .zshrc.local
-+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
